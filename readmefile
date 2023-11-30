@@ -1,0 +1,35 @@
+step 1:clone the data from git
+step 2:start the server with the command "npm start"
+after starting the server go to postman and add the url by refering below steps
+
+
+# API to create a product
+enter the products items like id,productname,imgurl,productcategory,productdescription
+set the method to POST and hit the url
+step 3:
+# "localhost:4500/api/tasks"
+
+# API to get the products all the products
+set the method to GET and hit the url
+step 4:
+# "localhost:4500/api/tasks"
+
+# API to get the single product based on id
+set the method to GET and hit the url
+step 5:
+# "localhost:4500/api/tasks/:id"
+
+# API to get the product based on some query
+ (eg: /products?page=1&pageSize=10&productName=apple&category=electronics)
+
+set the method to GET and hit the url
+step 5:
+# "localhost:4500/api/tasks/?page=1&pageSize=10&productName=apple&category=electronics"
+
+# API to delete the single product based on id
+set the method to DELETE and hit the url
+step 5:
+# "localhost:4500/api/tasks/:id"
+
+
+
